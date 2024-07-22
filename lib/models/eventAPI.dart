@@ -3,7 +3,7 @@ import 'package:event_planning/models/eventModel.dart';
 import 'package:http/http.dart' as http;
 
 class EventService {
-  static const String baseUrl = 'http://192.168.12.181:3000';
+  static const String baseUrl = 'http://-ip-addres:3000';
 
   static Future<List<Event>> getEvents() async {
     try {
